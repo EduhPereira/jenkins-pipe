@@ -2,9 +2,9 @@ pipeline {
   agent any
 
   stages {
-    stage ('Build') {
+    stage('Build') {
       steps {
-        sh 'Jenkins Hello World'
+        sh 'echo "Jenkins Hello World"'
         sh '''
           echo "Nossa primeira pipeline"
           ls -a
